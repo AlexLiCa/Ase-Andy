@@ -17,7 +17,7 @@ export const Correccion = () => {
             <a onClick={() => setOpc("Español")}>Español</a>
             <a onClick={() => setOpc("Ingles")}>Ingles </a>
             <a onClick={() => setOpc("Frances")}>Frances</a>
-            <a onClick={() => setOpc("Aleman")}>Aleman</a>
+            <a onClick={() => setOpc("Aleman")}>Alemán</a>
           </div>
         </div>
         <div className="container">
