@@ -1,0 +1,27 @@
+.btn-a{
+font-family: Roboto, sans-serif;
+font-weight: 600;
+font-size: 17px;
+color: #fff;
+background-color: #336835;
+padding: 10px 30px;
+border: solid #33683500 2px;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 29px;
+transition : 718ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+margin: 1rem;
+align-items: center;
+cursor: pointer;
+text-transform: uppercase;
+}
+.btn-a:hover{
+transition : 718ms;
+padding: 10px 50px;
+transform : translateY(-0px);
+background-color: #458446;
+color: #e1edde;
+border: solid 2px #0066cc00;
+}

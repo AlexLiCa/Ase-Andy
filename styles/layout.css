@@ -1,0 +1,24 @@
+.card-p {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin: 0.8rem;
+  background: white;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  min-width: 11rem;
+  min-height: 8rem;
+}
+
+.container-c {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: transparent;
+}

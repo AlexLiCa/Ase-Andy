@@ -5,7 +5,7 @@
 }
 html,
 body {
-  background-color: #d4f8d8 !important;
+  background-color: #f6faf3 !important;
 }
 
 .header {
@@ -75,6 +75,10 @@ h3 {
 .slogan {
   align-content: left;
   text-align: left;
+  color: #618264 !important;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-size: max(2rem, 25px);
 }
 button {
   background-color: #a8df8e !important;
@@ -84,9 +88,8 @@ button {
 }
 .button {
   margin-right: 50px;
-  /* align-items: center;
-  align-content: center;
-  margin: 0 auto; */
+  margin-top: 20px;
+  margin-bottom: 8px;
 }
 #button-slogan {
   width: 150px;
@@ -137,4 +140,75 @@ p {
   height: 205px;
   margin-top: 40px;
   border-radius: 8px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  place-items: center;
+}
+
+
+.card-h {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin: 0.8rem;
+  background: white;
+  max-width: 33rem;
+  max-height: 9rem;
+  min-height: 9rem;
+}
+
+.txt-home {
+  /* font-size: max(1em, 20px); */
+  font-size: clamp(1rem, 1.5vw, 2rem);
+  overflow: hidden;
+  text-align: justify;
+  color: #56735a;
+  padding: 2px;
+}
+
+.pencil {
+  max-height: 3rem;
+  max-width: 3rem;
+  fill: white;
+}
+
+.logo-text {
+  font-family: "Poppins", sans-serif;
+  color: rgb(222, 248, 234);
+  font-size: clamp(1rem, 2vw, 2rem);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.title{
+  margin-top: 1.5rem;
+}
+
+.animation-1{
+  height: 15rem;
+}
+
+.box-margins{
+  margin-bottom: 1.5rem;
+}
+
+.loading {
+  border: none;
+  background-color: transparent;
+  align-items: center;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  width: 20rem;
+  height: 12rem;
 }
