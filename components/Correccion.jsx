@@ -69,7 +69,7 @@ export const Correccion = () => {
         <div className="correcciones">
           <form onSubmit={onSubmit}>
             <textarea
-              className="form-control form-control-lg"
+              className="form-control "
               id="text-input"
               value={text}
               onChange={onChange}
