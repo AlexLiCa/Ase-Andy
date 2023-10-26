@@ -66,7 +66,7 @@ export const Correccion = () => {
         <h3>Ingresa tu texto aquí: </h3>
       </div>
       <div className="container-c">
-        <div className="m-3">
+        <div className="correcciones">
           <form onSubmit={onSubmit}>
             <textarea
               className="form-control form-control-lg"
